@@ -22,7 +22,7 @@ import { Container, Row, Col } from "reactstrap";
 
 // core components
 import AuthNavbar from "components/Navbars/AuthNavbar.jsx";
-import AuthFooter from "components/Footers/AuthFooter.jsx";
+
 
 import routes from "routes.js";
 
@@ -90,7 +90,7 @@ class Auth extends React.Component {
             </Row>
           </Container>
         </div>
-        <AuthFooter />
+
       </>
     );
   }

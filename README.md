@@ -166,7 +166,7 @@ Argon Dashboard React
     ├── components
     │   ├── Footers
     │   │   ├── AdminFooter.jsx
-    │   │   └── AuthFooter.jsx
+    │   │   
     │   ├── Headers
     │   │   ├── Header.jsx
     │   │   └── UserHeader.jsx

@@ -20,6 +20,16 @@ import React from "react";
 
 // reactstrap components
 import { Container, Row, Col, Nav, NavItem, NavLink } from "reactstrap";
+const Links = [
+  {
+    href: "https://www.creative-tim.com?ref=adr-admin-footer",
+    name: 'Ceative Tim',
+
+  },
+  { href: "https://www.creative-tim.com/presentation?ref=adr-admin-footer" },
+  { href: "http://blog.creative-tim.com?ref=adr-admin-footer" },
+  { href: "https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md?ref=adr-admin-footer" },
+]
 
 class Footer extends React.Component {
   render() {
@@ -82,6 +92,22 @@ class Footer extends React.Component {
                 </NavLink>
               </NavItem>
             </Nav>
+          </Col>
+
+          <NavItem>
+            {Links.map(Link => {
+              <NavLink href={Link.href}
+                rel={Link.rel}
+                target="_blank" > {Link.name} </NavLink>
+            })}
+
+          </NavItem>
+          <Col>
+
+            {
+
+            }
+
           </Col>
         </Row>
       </footer>
