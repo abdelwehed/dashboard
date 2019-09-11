@@ -15,6 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+import Users from "views/users/users";
 import Index from "views/Index.jsx";
 
 import Login from "views/examples/Login.jsx";
@@ -33,7 +34,7 @@ var routes = [
     path: "/users",
     name: "Users",
     icon: "ni ni-single-02 text-blue",
-    // component: ,
+    component: Users,
     layout: "/admin"
   },
   {

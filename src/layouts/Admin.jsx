@@ -47,6 +47,7 @@ class Admin extends React.Component {
       }
     });
   };
+
   getBrandText = path => {
     for (let i = 0; i < routes.length; i++) {
       if (
@@ -59,7 +60,9 @@ class Admin extends React.Component {
     }
     return "Brand";
   };
+
   render() {
+
     return (
       <>
         <Sidebar
@@ -67,7 +70,7 @@ class Admin extends React.Component {
           routes={routes}
           logo={{
             innerLink: "/admin/index",
-            imgSrc: require("assets/img/brand/argon-react.png"),
+            imgSrc: require("assets/img/brand/alien.png"),
             imgAlt: "..."
           }}
         />
